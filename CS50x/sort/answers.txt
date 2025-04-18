@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble Sort performs best in O(n) time. For example when the list is already sorted, it only has to go through the list once. But Bubble Sort performs O(n^2) if the list is not sorted or in reverse, Bubble Sort will require to go through the list multiple time. Thus, the result is best in sorted list and longer duration for reversed and random list.
+
+sort2 uses: Merge Sort
+
+How do you know?: Merge Sort always perform in O(n log n) time. This method is considered as more efficient as it divides the list into halves and merge the sort back. This division and merging neglect the list order. Thus, the result for all lists are equally consistent.
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection Sort always performs in O(n^2) time as it systematically goes through the whole list looking for the smallest elements and sort it in place. The task requires going through the whole list multiple time, thus, the result for all three looks similar but the duration increase expotentially as the list length increases.
